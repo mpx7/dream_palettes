@@ -1,0 +1,212 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+*{
+	margin: 0px;
+    padding: 0px; 
+	box-sizing: border-box;
+}
+#fc2_footer{
+	text-align: center !important;
+}
+header{
+	width: 100%;
+	height: 60px;
+	/* background-color: #FC4A93; */
+	padding: 15px;
+	color: #fcfcfc;
+	font-family: "Segoe UI";
+	font-weight: bold;
+	background: rgb(255,195,146);
+	background: linear-gradient(180deg, rgba(255,195,146,1) 0%, rgba(255,176,111,1) 0%, rgba(255,109,18,1) 100%);
+}
+#header > img{
+	width: 100%;
+	heiht: 100%;
+	text-align: center;
+	padding: 10px;
+	background-color: #fafafa;
+	border: solid 3px #FB2276;
+	border-radius: 6px;
+	border-top-left-radius: 50px;
+}
+body{
+	/*background: linear-gradient(to bottom, #FEFEFE 0%, #FFDBBE 50%);*/
+	background-color: #fdfdfd;
+	color: #000000;
+	font-family: "Lato", "Noto Sans Japanese";
+	line-height: 140%;
+	word-wrap: break-word;
+	padding: 0px;
+	margin: 0px;
+	height: 100%; 
+	text-align: center;
+}
+#bg{
+	background: url('pasteldots_640.png');
+	height: 100%;
+    min-height: 100%;
+	text-align: left;
+}
+body > #bg { 
+    height: auto; 
+}
+.flexbox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#wrapper{
+	width: 820px;
+	background-color: rgba(10, 10, 10, 0.65);
+	padding: 50px;
+	padding-top: 30px;
+	box-shadow: 0 0 16px #606060;
+	border-radius: 0px 0px 6px 6px;
+}
+footer{
+	padding: 55px 0px 0px 0px;
+	text-align: center;
+	font-size: 125%;
+	font-family: "Ubuntu Light";
+	color: #bbbbbb;
+}
+h2{
+	font-size: 160%;
+	/* padding-bottom: 10px; */
+	/* border-bottom: 3px dotted #F26A00; */
+	/* padding-top: 40px; */
+	text-align: center;
+	background-color: #1A73E8;
+	color: #fafafa;
+	font-family: Roboto;
+	/* font-weight: normal; */
+	padding: 10px;
+	margin: 0px;
+	margin-bottom: 25px;
+	border-radius: 3px;
+	box-shadow: 2px 2px #89b7f3;
+}
+section{
+	/* border: 3px dotted #1A73E8; */
+	border: solid 2px #484848;
+	background-color: #fcfcfc;
+	margin: 0px;
+	margin-top: 30px;
+	padding: 30px;
+	padding-top: 25px;
+	border-radius: 6px;
+}
+section p{
+	padding: 0px 10px;
+}
+.palette{
+	font-weight: bold;
+}
+#tpslogo{
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	opacity: 0.5;
+	margin: 0px;
+	padding: 0px;
+}
+#tweetbutton{
+	position:fixed;
+	bottom:10px;
+	left:10px;
+	opacity: 0.75;
+	margin: 0px;
+	padding: 0px;
+}
+#tpslogo:hover{
+	transition-timing-function:ease-in-out;
+	transition-duration:4s;
+	transform: rotateX(720deg) rotateY(720deg) rotateZ(720deg);
+}
+.download{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+a{
+	color: #00b036;
+}
+a:hover{
+	color: #00d341;
+}
+#tap{
+	border: 5px solid #111111;
+	margin: 0 auto;
+}
+.caption{
+	text-align: center;
+	opacity: 0.6;
+	padding: 10px 0px 20px 0px;
+}
+.phrase{
+	text-align: center;
+	opacity: 0.85;
+	padding: 30px 0px 15px 0px;
+	font-weight: bold;
+}
+#listTable{
+	table-layout: fixed;
+	width: 675px;
+	margin: 0 auto;
+}
+#title{
+	width: 20%;
+}
+#composer{
+	width: 12%;
+}
+#illustrator{
+	width: 13%;
+}
+#difficulty{
+	width: 10%;
+}
+#effector{
+	width: 45%;
+}
+table{
+	border-width: 0;
+	border-collapse: collapse;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+tr:first-child{
+	border: solid #fafafa;
+	border-width: 1px 0px;
+	text-align: center;
+	background-color: #201050;
+}
+tr:last-child{
+	border: solid #fafafa 0px;
+	border-bottom-width: 1px;
+}
+tr:hover{
+	background-color: #111111;
+}
+tr:first-child:hover{
+	background-color: #180828;
+}
+td{
+	padding: 20px 5px 20px 5px;
+	word-wrap: break-word;
+	text-align: center;
+}
+strong{
+	color: #ff0000;
+}
+#description{
+	text-align: center;
+	font-size: 150%;
+	color: #eeeeee;
+	margin: 40px 0px;
+}
+ul{
+	padding-left: 20px;
+	list-style-type: circle;
+}

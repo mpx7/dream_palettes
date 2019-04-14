@@ -1,0 +1,22 @@
+body{
+	background-color: #0a0a0a;
+}
+#bg{
+	background: url('pasteldots_640_nm.png');
+}
+
+#header > img{
+	background-color: #D2C6D8;
+	border: solid 3px #846694;
+}
+
+section{
+	background-color: #404040;
+	color: #fcfcfc;
+	border: solid 2px #111111;
+}
+
+h2{
+	background-color: #791AE8;
+	box-shadow: 2px 2px #B885F3;
+}
